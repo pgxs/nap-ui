@@ -10,7 +10,6 @@ export class AppComponent implements AfterViewInit {
   title = 'nap-ui';
 
   ngAfterViewInit(): void {
-    alert(0);
     const data = [
       { genre: 'Sports', sold: 275 },
       { genre: 'Strategy', sold: 115 },
